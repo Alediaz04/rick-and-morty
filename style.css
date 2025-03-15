@@ -42,12 +42,13 @@ header{
 
 .dimensions{
     
-    
+    margin: 20px auto;
 }
-
+main{
+    background-color: b;
+}
 .card{
-    margin: 30px 20px;
-    border: 1px black solid;
+    margin: 10px 20px;
     
 }
 
