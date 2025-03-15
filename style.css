@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    background-image: url(img/banner\ rick.webp);
+    background-repeat: none;
+    background-size: 100%;
+    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.tittle{
+    text-align: center;
+
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px
+}
+/* COLORES: RICK VERDE MORTY ROSADO */
+.rick{
+    font-size: 100px;
+    color: #2413bb;
+    
+}
+
+.morty{
+     font-size: 100px;
+    color: rgb(206, 14, 78);
+    filter: contrast(1.8) drop-shadow(1px 10px 10px rgb(134, 10, 62)); 
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+.dimensions{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
