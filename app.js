@@ -24,7 +24,7 @@ const obtenerPersonajes= () => {
     containerCard.innerHTML = ''
         for(let personaje of personajes){
             const {name,gender,image,status,species} = personaje
-            containerCard.innerHTML+=`<div class="card" style="width: 20rem;">
+            containerCard.innerHTML+=`<div class="card" style="width: 25rem;">
             <img src="${image} " class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${name} </h5>

@@ -54,7 +54,7 @@ header{
 .state{
     color: #fff;
     background-color: rgb(0, 104, 0);
-    width: 80px;
+    width: 100px;
     border: none;
     cursor: default;
 }
@@ -62,7 +62,7 @@ header{
 .gender{
     color: #fff;
     background-color: rgb(0, 88, 104);
-    width: 80px;
+    width: 100px;
     border: none;
     cursor: default;
 }
@@ -70,7 +70,7 @@ header{
 .species{
     color: #fff;
     background-color: rgb(100, 14, 139);
-    width: 80px;
+    width: 120px;
     border: none;
     cursor: default;
 }
