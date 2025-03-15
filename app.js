@@ -4,7 +4,6 @@ const endpointPersonajes= "character/"
 let pagina= 1
 
 let containerCard = document.querySelector('#container-card')
-let siguiente = document.querySelector('#siguiente')
 
 const obtenerPersonajes= () => {
         fetch(`${URLBase}${endpointPersonajes}?page=${pagina}`)
@@ -30,16 +29,24 @@ const obtenerPersonajes= () => {
             <div class="card-body">
               <h5 class="card-title">${name} </h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+             
             </div>
          </div>`
     
     
          console.log(name)
         }
- }
+}
 
- siguiente= document.addEventListener('click',()=>{
+function anterior(){
+    if(pagina >1){
+      pagina--
+      obtenerPersonajes()
+    }
+
+}
+
+function siguiente(){
     pagina++
     obtenerPersonajes()
-})
+}
