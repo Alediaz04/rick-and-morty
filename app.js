@@ -44,15 +44,21 @@ const obtenerPersonajes= () => {
         }
 }
 
+
+let numberPage= document.getElementById('page')
+
 function anterior(){
     if(pagina >1){
       pagina--
       obtenerPersonajes()
+      numberPage.innerHTML = pagina
     }
-
+    
 }
 
 function siguiente(){
     pagina++
     obtenerPersonajes()
+    numberPage.innerHTML = pagina
 }
+
